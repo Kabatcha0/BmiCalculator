@@ -9,9 +9,9 @@ Widget defaultFloating(
     FloatingActionButton(
       heroTag: upper ? hero.toUpperCase() : hero,
       backgroundColor: const Color.fromARGB(255, 108, 13, 163),
+      onPressed: function,
       child: Icon(
         icon,
         color: color,
       ),
-      onPressed: function,
     );

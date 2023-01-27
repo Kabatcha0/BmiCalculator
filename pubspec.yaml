@@ -31,6 +31,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  responsive_builder:
+  desktop_window:
+  sizer:
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class BmiResult extends StatelessWidget {
   final int age;
@@ -33,9 +34,9 @@ class BmiResult extends StatelessWidget {
           children: [
             Text(
               "Age : $age",
-              style: const TextStyle(
+              style: TextStyle(
                   color: Colors.white,
-                  fontSize: 21,
+                  fontSize: 21.sp,
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(

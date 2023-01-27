@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:bmi/modules/bmi_result/bmi_result.dart';
+import 'package:sizer/sizer.dart';
 
 import '../../components/components.dart';
 
@@ -53,7 +54,8 @@ class _Bmi extends State<Bmi> {
                       decoration: BoxDecoration(
                           color: toggle
                               ? const Color.fromARGB(255, 108, 13, 163)
-                              : const Color.fromARGB(255, 61, 56, 121),
+                              : const Color.fromARGB(255, 61, 52, 121),
+                          /////
                           borderRadius: BorderRadius.circular(10)),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -228,8 +230,8 @@ class _Bmi extends State<Bmi> {
                       ],
                     ),
                   )),
-                  const SizedBox(
-                    width: 5,
+                  SizedBox(
+                    width: 5.sp,
                   ),
                   Expanded(
                       child: Container(
